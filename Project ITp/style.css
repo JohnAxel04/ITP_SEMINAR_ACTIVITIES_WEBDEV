@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 250vh;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navv{
+    margin: 28px;
+    display: flex;
+    gap: 15px;
+    font-size: large;
+}
+.navv a:nth-child(6){
+    margin-right: auto;
+}
+.navv a{
+    text-decoration: none;
+    color: black;
+}
+.navv a:hover{
+    text-decoration: underline;
+}
+.h11{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    margin-top: 80px;
+}
+.low{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.mbot{
+    
+    width: 260px;
+    height: 60px;
+    position: absolute;
+    left: 43%;
+    margin-top: 85px;
+    border: none;
+    background-color: rgb(236, 44, 140);
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    box-shadow:  0 0 6px  rgb(236, 44, 140);
+}
+.loww{
+    position: absolute;
+    left: 30%;
+    bottom: -1%;
+    font-size: 45px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 37rem;
+    font-size: 22px;
+
+}
+
+.caro div{
+    border: 1px solid black;
+    width: 190px;
+    height: 190px;
+    
+}
+.caro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20rem;
+}
+.house1{
+    position: absolute;
+    left: 70%;
+    top: 34%;
+}
+.house2{
+    position: absolute;
+    right: 70%;
+    top: 39%;
+}
+.house3{
+    position: absolute;
+    top: 85%;
+}
